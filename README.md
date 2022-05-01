@@ -26,7 +26,8 @@ End of program.
 ## ROUTE MAP:
 ![Map](https://user-images.githubusercontent.com/75234807/166142528-9743e76e-7271-4562-ae82-c8d0093b1b0a.png)
 
-## PROGRAM
+## PROGRAM:
+```python
 %matplotlib inline
 import matplotlib.pyplot as plt
 import random
@@ -201,7 +202,7 @@ print("Route:{0}".format(path_states(goal_state_path_3)))
 print("\nGoalStateWithPath:{0}".format(goal_state_path_4))
 print("Total Distance={0} Kilometers".format(goal_state_path_4.path_cost))
 print("Route:{0}".format(path_states(goal_state_path_4)))
-
+```
 
 ## OUTPUT:
 ![Screenshot (83)](https://user-images.githubusercontent.com/75234807/166142539-ff07f0b7-18e3-493c-901b-9a8e24cfc757.png)
